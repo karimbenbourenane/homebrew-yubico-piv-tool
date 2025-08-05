@@ -2,7 +2,7 @@
 
 ## How do I install these formulae?
 
-`brew install karimbenbourenane/yubico-piv-tool/<formula>`
+`brew install karimbenbourenane/yubico-piv-tool/yubico-piv-tool@2.7.1`
 
 Or `brew tap karimbenbourenane/yubico-piv-tool` and then `brew install yubico-piv-tool@2.7.1`.
 
