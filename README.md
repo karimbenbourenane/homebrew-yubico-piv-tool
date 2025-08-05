@@ -1,16 +1,23 @@
-# Karimbenbourenane Yubico-piv-tool
+# karimbenbourenane yubico-piv-tool
 
 ## How do I install these formulae?
 
 `brew install karimbenbourenane/yubico-piv-tool/<formula>`
 
-Or `brew tap karimbenbourenane/yubico-piv-tool` and then `brew install <formula>`.
+Or `brew tap karimbenbourenane/yubico-piv-tool` and then `brew install yubico-piv-tool@2.7.1`.
 
 Or, in a `brew bundle` `Brewfile`:
 
 ```ruby
 tap "karimbenbourenane/yubico-piv-tool"
-brew "<formula>"
+brew "yubico-piv-tool@2.7.1"
+```
+
+## How do I use libykcs11 with ssh-add?
+
+```sh
+sudo mkdir -p /usr/local/lib
+sudo install -m 755 "$(brew --prefix)"/lib/libykcs11.dylib /usr/local/lib
 ```
 
 ## Documentation
